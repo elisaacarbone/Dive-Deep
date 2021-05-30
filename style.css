@@ -10,7 +10,7 @@
 		top:0;
 		left:0;
 		margin:0px;
-    background-color: pink;
+    background: linear-gradient(#90e0ef, #48cae4, #00b4d8, #0096c7, #0077b6, #023e8a, #03045e, #010228);
     z-index: -1;
 }
 
@@ -31,7 +31,7 @@
 .line {
   width: 100%;
   height: 2px;
-  background-color: red;
+  background-color: white;
   transition: all 0.8s;
 }
 
@@ -53,7 +53,7 @@
 .navbar {
   width: 400px;
   height: 100%;
-  background-color: red;
+  background-color: #0096c7;
   position: fixed;
   top: 0;
   right: -400px;
@@ -61,6 +61,7 @@
   justify-content: center;
   align-items: center;
   transition: right 0.8s;
+  z-index: 1;
 }
 
 .change {
@@ -130,7 +131,7 @@ h1 {
   font-size: 24px;
   text-align: left;
 
-  color: red;
+  color: white;
 }
 
 .homepage {
@@ -147,7 +148,7 @@ h1 {
   font-size: 24px;
   text-align: left;
 
-  color: red;
+  color: white;
 }
 
 h2 {
@@ -163,7 +164,7 @@ h2 {
   font-size: 72px;
   text-align: center;
 
-  color: red;
+  color: white;
 }
 
 p{
@@ -179,7 +180,7 @@ text-align: center;
 text-transform: uppercase;
 letter-spacing: 1px;
 
-color: red;
+color: white;
 }
 
 p1{
@@ -196,7 +197,7 @@ text-align: center;
 text-transform: uppercase;
 letter-spacing: 1px;
 
-color: red;
+color: white;
 }
 
 #divedeeper {
@@ -222,7 +223,7 @@ color: red;
 .mouse {
   width: 15px;
   height:30px;
-  border: 1px solid red;
+  border: 1px solid white;
   border-radius: 20px;
   display: flex;
 }
@@ -230,7 +231,7 @@ color: red;
 .mouse span {
   width: 7px;
   height:7px;
-  background-color: red;
+  background-color: white;
   display: block;
   border-radius: 50%;
   margin: auto;
@@ -242,8 +243,8 @@ color: red;
   width: 7px;
   height:7px;
   border: 1px solid transparent;
-  border-right-color: red;
-  border-bottom-color: red;
+  border-right-color: white;
+  border-bottom-color: white;
   transform: rotate(45deg);
   animation: arrow-down .5s alternate infinite;
 }
@@ -290,17 +291,17 @@ h3 {
   font-size: 28px;
   text-align: center;
 
-  color: red;
+  color: white;
 }
 
 .trailer-space {
   position: absolute;
   left: 50%;
   top: 50%;
-  height: 300px;
-  width: 550px;
+  height: 315px;
+  width: 560px;
   transform: translate(-50%,-50%);
-  background-color: red;
+  background-color: none;
 }
 
 .button {
@@ -309,7 +310,7 @@ h3 {
   top: 75%;
   left:50%;
   background: none;
-  border: 1px solid red;
+  border: 1px solid white;
   border-radius: 20px;
   padding: 10px 20px;
   font-family: 'Montserrat';
@@ -318,13 +319,13 @@ h3 {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  color: red;
+  color: white;
   transition: .2s;
   overflow: hidden;
 }
 
 .button:hover {
-  background: red;
+  background: white;
   cursor: pointer;
   color: pink;
 }
