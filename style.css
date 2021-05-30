@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Grotesk';
+  src:url(assets/Grotesk.ttf);
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -37,12 +43,12 @@
 
 .change .line-1 {
   background-color: white;
-  transform: rotateZ(-45deg) translate(-8px, 2px);
+  transform: rotateZ(-45deg) translate(-8px, 1.8px);
 }
 
 .change .line-3 {
   background-color: white;
-  transform: rotateZ(45deg) translate(-8px, -2px);
+  transform: rotateZ(45deg) translate(-8px, -1.8px);
 }
 
 .change .line-2 {
