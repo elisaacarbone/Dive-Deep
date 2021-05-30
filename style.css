@@ -375,7 +375,7 @@ h3 {
   }
 
    .navbar {
-    width: 100vw;
+    width: 400px;
     height: 100%;
     background-color: #0096c7;
     position: fixed;
@@ -389,7 +389,7 @@ h3 {
   }
 
   .change {
-    left:0vw;
+    right:0px;
   }
 
   .nav-list {
@@ -448,6 +448,103 @@ h3 {
     text-align: center;
 
     color: white;
+  }
+
+  p{
+    /* Welcome to */
+  position: absolute;
+  width: 80vw;
+  left: 50vw;
+  top: 30vh;
+  transform: translate(-50%,-50%);
+
+  font-family: 'Montserrat';
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  color: white;
+  }
+
+  p1{
+    /* Dive to discover it */
+
+  position: absolute;
+  width: 80vw;
+  left: 50vw;
+  top: 80vh;
+  transform: translate(-50%,-50%);
+
+  font-family: 'Montserrat';
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  color: white;
+  }
+
+  h3 {
+    /* watch the trailer */
+    position: absolute;
+    left: 50%;
+    top: 18%;
+    width: 80vw;
+    height: 26px;
+    width: 400px;
+    transform: translate(-50%,-50%);
+
+    font-family: 'Grotesk';
+    font-size: 28px;
+    text-align: center;
+
+    color: white;
+  }
+
+  .trailer-space {
+    width: 80vw;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+  }
+
+  .trailer-space iframe,
+  .trailer-space object,
+  .trailer-space embed {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+  }
+
+  .button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left:50%;
+    background: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: white;
+    transition: .2s;
+    overflow: hidden;
+  }
+
+  .button:hover {
+    background: white;
+    cursor: pointer;
+    color: #03045e;
   }
 
 }
