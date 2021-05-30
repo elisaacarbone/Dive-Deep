@@ -118,6 +118,24 @@
 
 h1 {
   /* DIVE DEEP top left title */
+  text-decoration: none;
+  position: fixed;
+  top: 40px;
+  left: 30px;
+  transform: translate(0, -50%);
+  height: 22px;
+  width: 146px;
+
+  font-family: 'Grotesk';
+  font-size: 24px;
+  text-align: left;
+
+  color: red;
+}
+
+.homepage {
+  /* DIVE DEEP top left title */
+  text-decoration: none;
   position: fixed;
   top: 40px;
   left: 30px;
@@ -285,27 +303,27 @@ h3 {
   background-color: red;
 }
 
-button {
+.button {
   position: absolute;
   transform: translate(-50%, -50%);
   top: 75%;
   left:50%;
-  height: 60px;
-  width: 170px;
   background: none;
   border: 1px solid red;
   border-radius: 20px;
+  padding: 10px 20px;
   font-family: 'Montserrat';
   font-size: 14px;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   letter-spacing: 1px;
   color: red;
   transition: .2s;
   overflow: hidden;
 }
 
-button:hover {
+.button:hover {
   background: red;
   cursor: pointer;
   color: pink;
