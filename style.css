@@ -581,7 +581,8 @@ h5 {
 
 }
 
-@media only screen and (max-height:800px) {
+@media only screen and (max-height:1500px) {
+
   h3 {
     /* watch the trailer */
     position: absolute;
