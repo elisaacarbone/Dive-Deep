@@ -4,10 +4,7 @@
   font-style: normal;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
+/*div contenitore*/
 
 #background {
 		position: absolute;
@@ -19,6 +16,18 @@
     background: linear-gradient(#90e0ef, #48cae4, #00b4d8, #0096c7, #0077b6, #023e8a, #03045e, #010228);
     z-index: -1;
 }
+
+/*div navbar*/
+
+#topbar {
+		position: fixed;
+		width:100vw;
+		height:80px;
+		top:0;
+		left:0;
+    margin-bottom: 20px;
+    z-index: 1;
+    }
 
 .hamburger-menu {
   width: 22px;
@@ -123,8 +132,7 @@
   text-transform: uppercase;
 }
 
-h1 {
-  /* DIVE DEEP top left title */
+#divedeeplogo {
   text-decoration: none;
   position: fixed;
   top: 40px;
@@ -157,14 +165,43 @@ h1 {
   color: white;
 }
 
-h2 {
-  /* DIVE DEEP title */
-  position: absolute;
-  left: 50vw;
-  top: 48vh;
+/*div homepage*/
+
+#homepage {
+		position: absolute;
+		width:100vw;
+		height:100vh;
+		top:0;
+		left:0;
+    z-index: -1;
+}
+
+#welcometo {
+position: relative;
+left: 50%;
+top: 40%;
+height: 20px;
+width: 150px;
+transform: translate(-50%,-50%) translate(-20px, -20px);
+margin: 20px;
+
+font-family: 'Montserrat';
+font-size: 18px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+color: white;
+}
+
+#title {
+  position: relative;
+  left: 50%;
+  top: 50%;
   height: 70px;
   width: 450px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%) translate(-20px, -20px);
+  margin: 20px;
 
   font-family: 'Grotesk';
   font-size: 72px;
@@ -173,54 +210,35 @@ h2 {
   color: white;
 }
 
-p{
-  /* Welcome to */
-position: absolute;
-left: 50vw;
-top: 40vh;
-transform: translate(-50%,-50%);
+#divetodiscoverit {
+  position: relative;
+  left: 50%;
+  top: 70%;
+  height: 20px;
+  width: 250px;
+  transform: translate(-50%,-50%) translate(-20px, -20px);
+  margin: 20px;
 
-font-family: 'Montserrat';
-font-size: 18px;
-text-align: center;
-text-transform: uppercase;
-letter-spacing: 1px;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 
-color: white;
+  color: white;
 }
 
-p1{
-  /* Dive to discover it */
-
-position: absolute;
-left: 50vw;
-top: 85vh;
-transform: translate(-50%,-50%);
-
-font-family: 'Montserrat';
-font-size: 18px;
-text-align: center;
-text-transform: uppercase;
-letter-spacing: 1px;
-
-color: white;
-}
-
-#divedeeper {
-  position: absolute;
-  left: 50vw;
-  top: 150vh;
-  height: 100vh;
-  width: 100vw;
-  transform: translate(-50%,-50%);
-  z-index: -1;
+#scroll-down {
+  position: relative;
+  left: 50%;
+  top: 72%;
+  height: 50px;
+  width: 20px;
+  transform: translate(-50%, -50%) translate(-20px, -20px);
+  margin: 20px;
 }
 
 .scroll-down {
-  position: absolute;
-  left: 50vw;
-  top: 92vh;
-  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -284,14 +302,24 @@ color: white;
   }
 }
 
-h3 {
-  /* watch the trailer */
+/* div 2nd section*/
+
+#divedeeper {
   position: absolute;
+  left: 0vw;
+  top: 100vh;
+  height: 100vh;
+  width: 100vw;
+}
+
+#watchthetrailer {
+  position: relative;
   left: 50%;
   top: 25%;
   height: 26px;
   width: 400px;
-  transform: translate(-50%,-50%);
+  margin: 20px;
+  transform: translate(-50%,-50%) translate(-20px, -20px);
 
   font-family: 'Grotesk';
   font-size: 28px;
@@ -300,21 +328,28 @@ h3 {
   color: white;
 }
 
-.trailer-space {
-  position: absolute;
+#trailer-space {
+  position: relative;
   left: 50%;
-  top: 50%;
+  top: 45%;
   height: 315px;
   width: 560px;
-  transform: translate(-50%,-50%);
+  margin: 20px;
+  transform: translate(-50%,-50%) translate(-20px, -20px);
   background-color: none;
 }
 
+#starttheexperience {
+  position: relative;
+  left: 50%;
+  top: 35%;
+  height: 18px;
+  width: 200px;
+  margin: 20px;
+  transform: translate(-50%,-50%) translate(-20px, -20px);
+}
+
 .button {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 75%;
-  left:50%;
   background: none;
   border: 1px solid white;
   border-radius: 20px;
@@ -350,274 +385,4 @@ h5 {
   text-align: center;
 
   color: white;
-}
-
-@media only screen and (max-width:800px) {
-
-  .hamburger-menu {
-    width: 22px;
-    height: 22px;
-    position: fixed;
-    transform: translate(-50%,-50%);
-    top: 40px;
-    left:90vw;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    z-index: 1;
-  }
-
-  .line {
-    width: 100%;
-    height: 2px;
-    background-color: white;
-    transition: all 0.8s;
-  }
-
-  .change .line-1 {
-    background-color: white;
-    transform: rotateZ(-45deg) translate(-8px, 1.8px);
-  }
-
-  .change .line-3 {
-    background-color: white;
-    transform: rotateZ(45deg) translate(-8px, -1.8px);
-  }
-
-  .change .line-2 {
-    background-color: white;
-    opacity: 0;
-  }
-
-   .navbar {
-    width: 400px;
-    height: 100%;
-    background-color: #0096c7;
-    position: fixed;
-    top: 0;
-    right: -400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: right 0.8s;
-    z-index: 1;
-  }
-
-  .change {
-    right:0px;
-  }
-
-  .nav-list {
-    width: 200px;
-    height: 50%;
-    text-align: right;
-    transform: translate(50px);
-  }
-
-  .nav-item {
-    list-style: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-
-  .nav-link {
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Montserrat';
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    position: relative;
-    padding: 5px 0;
-  }
-
-  .nav-link::before,
-  .nav-link::after {
-    content: "";
-    width: 100%;
-    height: 1px;
-    background-color: white;
-    position: absolute;
-    left:0;
-    bottom: 0;
-    transform: scaleX(0);
-    transition: transform 0.2s;
-  }
-
-  .nav-link:hover::before,
-  .nav-link:hover::after {
-    transform: scaleX(1);
-  }
-
-  h2 {
-    /* DIVE DEEP title */
-    position: absolute;
-    left: 50vw;
-    top: 48vh;
-    height: 70px;
-    width: 80vw;
-    transform: translate(-50%,-50%);
-
-    font-family: 'Grotesk';
-    font-size: 72px;
-    text-align: center;
-
-    color: white;
-  }
-
-  p{
-    /* Welcome to */
-  position: absolute;
-  width: 80vw;
-  left: 50vw;
-  top: 30vh;
-  transform: translate(-50%,-50%);
-
-  font-family: 'Montserrat';
-  font-size: 18px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-
-  color: white;
-  }
-
-  p1{
-    /* Dive to discover it */
-
-  position: absolute;
-  width: 80vw;
-  left: 50vw;
-  top: 80vh;
-  transform: translate(-50%,-50%);
-
-  font-family: 'Montserrat';
-  font-size: 18px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-
-  color: white;
-  }
-
-  h3 {
-    /* watch the trailer */
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    width: 80vw;
-    height: 26px;
-    width: 400px;
-    transform: translate(-50%,-50%);
-
-    font-family: 'Grotesk';
-    font-size: 28px;
-    text-align: center;
-
-    color: white;
-  }
-
-  .trailer-space {
-    width: 80vw;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    position: relative;
-  }
-
-  .trailer-space iframe,
-  .trailer-space object,
-  .trailer-space embed {
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-  }
-
-  .button {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 75%;
-    left:50%;
-    background: none;
-    border: 1px solid white;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-family: 'Montserrat';
-    font-size: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    color: white;
-    transition: .2s;
-    overflow: hidden;
-  }
-
-  .button:hover {
-    background: white;
-    cursor: pointer;
-    color: #03045e;
-  }
-
-  h5 {
-    /* sub-pages title */
-    position: absolute;
-    left: 50vw;
-    top: 20vh;
-    height: 46px;
-    width: 80vw;
-    transform: translate(-50%,-50%);
-
-    font-family: 'Grotesk';
-    font-size: 48px;
-    text-align: center;
-
-    color: white;
-  }
-
-}
-
-@media only screen and (max-height:1500px) {
-
-  h3 {
-    /* watch the trailer */
-    position: absolute;
-    left: 50%;
-    top: 15%;
-    width: 80vw;
-    height: 26px;
-    width: 400px;
-    transform: translate(-50%,-50%);
-
-    font-family: 'Grotesk';
-    font-size: 28px;
-    text-align: center;
-
-    color: white;
-  }
-
-  .button {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 90%;
-    left:50%;
-    background: none;
-    border: 1px solid white;
-    border-radius: 20px;
-    padding: 10px 20px;
-    font-family: 'Montserrat';
-    font-size: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 1px;
-    color: white;
-    transition: .2s;
-    overflow: hidden;
-  }
-
 }
