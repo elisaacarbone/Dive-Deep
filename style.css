@@ -509,8 +509,8 @@ h5 {
   position: relative;
   left: 30vw;
   top:10vh;
-  height:200px;
-  width:200px;
+  height:150px;
+  width:150px;
   margin: 20px;
   transform: translate(-50%,-50%) translate(-20px, -20px);
 }
