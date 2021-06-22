@@ -133,38 +133,25 @@
 }
 
 #divedeeplogo {
-  text-decoration: none;
   position: fixed;
   top: 40px;
   left: 30px;
   transform: translate(0, -50%);
   height: 22px;
   width: 146px;
-
-  font-family: 'Grotesk';
-  font-size: 24px;
-  text-align: left;
-
-  color: white;
 }
 
-.homepage {
-  /* DIVE DEEP top left title */
+.homepagelink {
   text-decoration: none;
-  position: fixed;
-  top: 40px;
-  left: 30px;
-  transform: translate(0, -50%);
-  height: 22px;
-  width: 146px;
-
-  font-family: 'Grotesk';
   font-size: 24px;
-  text-align: left;
-
+  font-family: 'Grotesk';
   color: white;
+  text-align: left;
+  position: relative;
+  padding: 5px 0;
 }
 
+/*page contents*/
 
 #divetofind {
   position: relative;
