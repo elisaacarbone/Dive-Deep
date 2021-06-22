@@ -490,7 +490,7 @@ h5 {
   /* sub-pages title */
   position: absolute;
   left: 50vw;
-  top: 20vh;
+  top: 10vh;
   height: 46px;
   width: 800px;
   transform: translate(-50%,-50%);
