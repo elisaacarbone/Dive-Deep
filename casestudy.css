@@ -504,11 +504,10 @@ h6 {
 @media only screen and (min-width: 601px) {
   #divcontent3 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr 0.3fr 0.2fr 0.5fr;
+    grid-template-rows: 0.1fr 0.5fr 0.4fr;
     grid-template-areas:
       "theworld theworld theworld theworld"
-      "divcontent3-1 divcontent3-1 divcontent3-1 thegloom"
-      "thedome divcontent3-1 divcontent3-1 thegloom"
+      "divcontent3-1 divcontent3-1 divcontent3-1 divcontent3-1"
       "divcontent3-2" "divcontent3-2" "divcontent3-2" "divcontent3-2" ;
      grid-gap: 0.2rem;
   }
@@ -542,17 +541,17 @@ h6 {
     position: relative;
     left: 50vw;
     top:0vh;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
 
   #thedome {
     position: absolute;
     top:0vh;
-    left:30%;
+    left:25%;
     height: 20px;
-    width: 300px;
+    width: 250px;
     margin: 10px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -500%);
   }
 
   #thegloom {
@@ -560,9 +559,9 @@ h6 {
     top:0vh;
     left: 80%;
     height: 20px;
-    width: 300px;
+    width: 250px;
     margin: 10px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-500%);
   }
 
 
