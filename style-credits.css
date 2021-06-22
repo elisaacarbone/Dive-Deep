@@ -9,7 +9,7 @@
 #background {
 		position: absolute;
 		width:100vw;
-		height:100vh;
+		height:200vh;
 		top:0;
 		left:0;
 		margin:0px;
@@ -133,12 +133,19 @@
 }
 
 #divedeeplogo {
+  text-decoration: none;
   position: fixed;
   top: 40px;
   left: 30px;
   transform: translate(0, -50%);
   height: 22px;
   width: 146px;
+
+  font-family: 'Grotesk';
+  font-size: 24px;
+  text-align: left;
+
+  color: white;
 }
 
 .homepagelink {
@@ -167,3 +174,143 @@
 
   color: white;
 }
+
+#eli{
+  position: absolute;
+  height: 70vh;
+  width: 20vw;
+  left: 4vw;
+  top: 20vh;
+}
+
+#cami {
+  position: absolute;
+  height: 70vh;
+  width: 20vw;
+  left: 28vw;
+  top: 20vh;
+}
+
+#bea {
+  position: absolute;
+  height: 70vh;
+  width: 20vw;
+  left: 52vw;
+  top: 20vh;
+}
+
+#ludo{
+  position: absolute;
+  height: 70vh;
+  width: 20vw;
+  left: 76vw;
+  top: 20vh;
+}
+
+.creditsname {
+  font-family: 'Montserrat';
+  width:100%;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 7%;
+  transform: translate(-50%,-50%);
+}
+
+.imageposition {
+  width:100%;
+  height: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.imageposition img{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.creditsdescription {
+  font-family: 'Montserrat';
+  width:100%;
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%,-50%);
+}
+
+/* div footer*/
+
+#footer-name {
+		position: absolute;
+		width:33vw;
+		height:75px;
+		top: 200vh;
+		left:0;
+    transform: translate(0, -75px);
+    }
+
+.name-list {
+    text-align: left;
+    }
+
+.name-item {
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 1px;
+    }
+
+#footer-teacher {
+  		position: absolute;
+  		width:33vw;
+  		height:75px;
+  		top: 200vh;
+  		left:33vw;
+      transform: translate(0, -75px);
+      }
+
+.teacher-list {
+        text-align: center;
+        }
+
+.teacher-item {
+        list-style: none;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-weight: lighter;
+        color: white;
+        letter-spacing: 1px;
+        }
+
+#footer-school {
+      	position: absolute;
+    		width:33vw;
+    		height:75px;
+    		top: 200vh;
+    		left:66vw;
+        transform: translate(-30px, -75px);
+      }
+
+.school-list {
+        text-align: right;
+      }
+
+.school-item {
+        list-style: none;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-weight: lighter;
+        color: white;
+        letter-spacing: 1px;
+      }
