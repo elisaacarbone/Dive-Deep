@@ -1,0 +1,525 @@
+@font-face {
+  font-family: 'Grotesk';
+  src:url(assets/Grotesk.ttf);
+  font-style: normal;
+}
+
+/*div contenitore spin offs*/
+
+#background {
+		position: absolute;
+		width:100vw;
+		height:400vh;
+		top:0;
+		left:0;
+		margin:0px;
+    background: linear-gradient(#90e0ef, #48cae4, #00b4d8, #0096c7, #0077b6, #023e8a, #03045e, #010228);
+    z-index: -1;
+}
+
+/*div topbar*/
+
+#topbar {
+		position: fixed;
+		width:100vw;
+		height:80px;
+		top:0;
+		left:0;
+    margin-bottom: 20px;
+    z-index: 1;
+    }
+
+.hamburger-menu {
+  width: 22px;
+  height: 22px;
+  position: fixed;
+  transform: translate(-50%,-50%);
+  top: 40px;
+  right: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 2;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  transition: all 0.8s;
+}
+
+.change .line-1 {
+  background-color: white;
+  transform: rotateZ(-45deg) translate(-8px, 1.8px);
+}
+
+.change .line-3 {
+  background-color: white;
+  transform: rotateZ(45deg) translate(-8px, -1.8px);
+}
+
+.change .line-2 {
+  background-color: white;
+  opacity: 0;
+}
+
+.navbar {
+  width: 400px;
+  height: 100%;
+  background-color: #0096c7;
+  position: fixed;
+  top: 0;
+  right: -400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: right 0.8s;
+  z-index: 2;
+}
+
+.change {
+  right:0;
+}
+
+.nav-list {
+  width: 200px;
+  height: 50%;
+  text-align: right;
+  transform: translate(50px);
+}
+
+.nav-item {
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Montserrat';
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  padding: 5px 0;
+}
+
+.nav-link::before,
+.nav-link::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  left:0;
+  bottom: 0;
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.logo {
+  font-size: 30px;
+  font-family: 'Grotesk';
+  color: white;
+  text-transform: uppercase;
+}
+
+#divedeeplogo {
+  text-decoration: none;
+  position: fixed;
+  top: 40px;
+  left: 30px;
+  transform: translate(0, -50%);
+  height: 22px;
+  width: 146px;
+
+  font-family: 'Grotesk';
+  font-size: 24px;
+  text-align: left;
+
+  color: white;
+}
+
+.homepagelink {
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Grotesk';
+  color: white;
+  text-align: left;
+  position: relative;
+  padding: 5px 0;
+}
+
+/* page contents */
+
+#homepage {
+position: absolute;
+width:100vw;
+height:100vh;
+top:0;
+left:0;
+}
+
+#welcometo {
+position: relative;
+left: 50%;
+top: 40%;
+height: 20px;
+width: 150px;
+transform: translate(-50%,-50%) translate(0, -20px);
+margin-bottom: 20px;
+
+font-family: 'Montserrat';
+font-size: 18px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 1px;
+
+color: white;
+}
+
+#title {
+  position: relative;
+  left: 50%;
+  top: 45%;
+  height: 70px;
+  width: 100vw;
+  transform: translate(-50%,-50%) translate(0, -20px);
+  margin: 0px 0px 20px 0px;
+
+  font-family: 'Grotesk';
+  font-size: 60px;
+  text-align: center;
+
+  color: white;
+}
+
+#reason {
+position: relative;
+left: 50%;
+top: 42%;
+height: 20px;
+width: 40%;
+transform: translate(-50%, 0) translate(0, -20px);
+margin-bottom: 20px;
+
+font-family: 'Montserrat';
+font-weight: lighter;
+font-size: 18px;
+text-align: center;
+letter-spacing: 1px;
+
+color: white;
+}
+
+#divetodiscoverit {
+  position: absolute;
+  left: 50%;
+  top: 87%;
+  height: 20px;
+  width: 100vw;
+  transform: translate(-50%,-50%) translate(0, -20px);
+  margin-bottom: 20px;
+
+  font-family: 'Montserrat';
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  color: white;
+}
+
+#scroll-down {
+  position: absolute;
+  left:50%;
+  top:92%;
+  height: 50px;
+  width: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mouse {
+  width: 15px;
+  height:30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: flex;
+}
+
+.mouse span {
+  width: 7px;
+  height:7px;
+  background-color: white;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  animation: move-wheel 1s linear infinite;
+}
+
+.arrow span {
+  display: block;
+  width: 7px;
+  height:7px;
+  border: 1px solid transparent;
+  border-right-color: white;
+  border-bottom-color: white;
+  transform: rotate(45deg);
+  animation: arrow-down .5s alternate infinite;
+}
+
+@keyframes move-wheel {
+  0%{
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(5px);
+  }
+}
+
+@keyframes arrow-down {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+/* div 2nd section*/
+
+#divewithus {
+  position: absolute;
+  left: 0vw;
+  top: 100vh;
+  height: 100vh;
+  width: 100vw;
+}
+
+#spiegazione {
+position: relative;
+left: 50%;
+top: 40%;
+height: 20px;
+width: 40%;
+transform: translate(-50%, 0) translate(0, -20px);
+margin-bottom: 20px;
+
+font-family: 'Montserrat';
+font-weight: lighter;
+font-size: 18px;
+text-align: center;
+letter-spacing: 1px;
+
+color: white;
+}
+
+#spiegazione2 {
+position: relative;
+left: 50%;
+top: 45%;
+height: 20px;
+width: 40%;
+transform: translate(-50%, 0) translate(0, -20px);
+margin-bottom: 20px;
+
+font-family: 'Montserrat';
+font-weight: lighter;
+font-size: 18px;
+text-align: center;
+letter-spacing: 1px;
+
+color: white;
+}
+
+#wewillshowyouhow {
+  position: absolute;
+  left: 50%;
+  top: 87%;
+  height: 20px;
+  width: 100vw;
+  transform: translate(-50%,-50%) translate(0, -20px);
+  margin-bottom: 20px;
+
+  font-family: 'Montserrat';
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  color: white;
+}
+
+#scroll-down2 {
+  position: absolute;
+  left:50%;
+  top:92%;
+  height: 50px;
+  width: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-down2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mouse2 {
+  width: 15px;
+  height:30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  display: flex;
+}
+
+.mouse2 span {
+  width: 7px;
+  height:7px;
+  background-color: white;
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  animation: move-wheel2 1s linear infinite;
+}
+
+.arrow2 span {
+  display: block;
+  width: 7px;
+  height:7px;
+  border: 1px solid transparent;
+  border-right-color: white;
+  border-bottom-color: white;
+  transform: rotate(45deg);
+  animation: arrow-down2 .5s alternate infinite;
+}
+
+@keyframes move-wheel2 {
+  0%{
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(5px);
+  }
+}
+
+@keyframes arrow-down2 {
+  0%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75%{
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+#collectivity {
+  position: absolute;
+  left: 0vw;
+  top: 200vh;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* div footer*/
+
+#footer-name {
+		position: absolute;
+		width:33vw;
+		height:75px;
+		top: 400vh;
+		left:0;
+    transform: translate(0, -75px);
+    }
+
+.name-list {
+    text-align: left;
+    }
+
+.name-item {
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 1px;
+    }
+
+#footer-teacher {
+  		position: absolute;
+  		width:33vw;
+  		height:75px;
+  		top: 400vh;
+  		left:33vw;
+      transform: translate(0, -75px);
+      }
+
+.teacher-list {
+        text-align: center;
+        }
+
+.teacher-item {
+        list-style: none;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-weight: lighter;
+        color: white;
+        letter-spacing: 1px;
+        }
+
+#footer-school {
+      	position: absolute;
+    		width:33vw;
+    		height:75px;
+    		top: 400vh;
+    		left:66vw;
+        transform: translate(-30px, -75px);
+      }
+
+.school-list {
+        text-align: right;
+      }
+
+.school-item {
+        list-style: none;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-weight: lighter;
+        color: white;
+        letter-spacing: 1px;
+      }
