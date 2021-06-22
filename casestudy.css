@@ -693,3 +693,289 @@ h5 {
       }
 
 }
+
+/* div4 Project section*/
+
+#thecharacters {
+  position: absolute;
+  left: 0vw;
+  top: 300vh;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media only screen and (min-width: 601px) {
+  #thecharacterstitle {
+    position: relative;
+    left: 50vw;
+    top: 10vh;
+    height: 5vh;
+    width: 100vw;
+    transform: translate(-50%,-50%);
+}
+  #imgkaran{
+    /*image*/
+    position: relative;
+    left: 12vw;
+    top:40vh;
+    height:auto;
+    width:15vw;
+    transform: translate(-50%,-50%);
+  }
+
+  #imgatlas{
+    /*image*/
+    position: relative;
+    left: 20vw;
+    top:40vh;
+    height:auto;
+    width:15vw;
+    transform: translate(-50%,-50%);
+  }
+
+  #imgdana{
+    /*image*/
+    position: relative;
+    left: 30vw;
+    top:40vh;
+    height:auto;
+    width:15vw;
+    transform: translate(-50%,-50%);
+  }
+
+  #imgio{
+    /*image*/
+    position: relative;
+    left: 35vw;
+    top:40vh;
+    height:auto;
+    width:15vw;
+    transform: translate(-50%,-50%);
+  }
+
+  #ch-button1{
+    position: absolute;
+    left:10vw;
+    top: 75vh;
+    width:25vw;
+    /* transform: translate(-50%,-50%); */
+  }
+  #ch-button2{
+    position: absolute;
+    left:33vw;
+    top: 75vh;
+    width:25vw;
+    /* transform: translate(-50%,-50%); */
+  }
+
+  #ch-button3{
+    position: absolute;
+    left:58vw;
+    top: 75vh;
+    width:25vw;
+    /* transform: translate(-50%,-50%); */
+  }
+
+  #ch-button4{
+    position: absolute;
+    left:80vw;
+    top: 75vh;
+    width:25vw;
+    /* transform: translate(-50%,-50%); */
+  }
+
+  /*karan page */
+
+    #karanpage{
+      position: absolute;
+      top: 0vh;
+      left: 0vw;
+      width: 100vw;
+      height: 100vh;
+      }
+
+      #karantitle {
+        position: relative;
+        left: 50vw;
+        top: 20vh;
+        height: 10vh;
+        width: 100vw;
+        transform: translate(-50%,0%);
+      }
+
+      #imgkaran2{
+        /*image*/
+        position: relative;
+        left: 50vw;
+        top:15vh;
+        height:60vh;
+        width:auto;
+        transform: translate(-50%);
+      }
+
+      #karantext {
+        position: relative;
+        left: 50vw;
+        top: 10vh;
+        height: 80vh;
+        width: 30vw;
+        transform: translate(-50%, 0%);
+
+        /* text */
+
+        font-family: 'Montserrat';
+        font-size: 18px;
+        text-align: left;
+        letter-spacing: 1px;
+        color: white;
+      }
+
+      #back {
+        position: absolute;
+        top:50vh;
+        left:20vw;
+        height: 5px;
+        width: 50vw;
+        transform: translate(0%, 0%);
+      }
+
+}
+
+@media only screen and (max-width: 600px) {
+  #thecharacterstitle {
+    position: relative;
+    left: 50vw;
+    top: 10vh;
+    height: 5vh;
+    width: 100vw;
+    transform: translate(-50%,-50%);
+}
+  #imgkaran{
+    /*image*/
+    position: relative;
+    left: 50vw;
+    top:40vh;
+    height:auto;
+    width:70vw;
+    transform: translate(-50%,-50%);
+  }
+
+  #imgatlas{
+    /*image*/
+    position: relative;
+    left: 50vw;
+    top:40vh;
+    height:auto;
+    width:70vw;
+    transform: translate(-50%,-50%);
+  }
+
+  #imgdana{
+    /*image*/
+    position: relative;
+    left: 50vw;
+    top:40vh;
+    height:auto;
+    width:70vw;
+    transform: translate(-50%,-50%);
+  }
+
+  #imgio{
+    /*image*/
+    position: relative;
+    left: 50vw;
+    top:40vh;
+    height:auto;
+    width:70vw;
+    transform: translate(-50%,-50%);
+  }
+
+  #ch-button1{
+    position: relative;
+    left:5vw;
+    top: -190vh;
+    width:80vw;
+      height: 10vh;
+  }
+  #ch-button2{
+    position: relative;
+    left:5vw;
+    top: -150vh;
+    width:25vw;
+    height: 10vh;
+    /* transform: translate(-50%,-50%); */
+  }
+
+  #ch-button3{
+    position: relative;
+    left:5vw;
+    top: -100vh;
+    width:80vw;
+      height: 10vh;
+    /* transform: translate(-50%,-50%); */
+  }
+
+  #ch-button4{
+    position: relative;
+    left:5vw;
+    top: -50vh;
+    width:80vw;
+      height: 10vh;
+    /* transform: translate(-50%,-50%); */
+  }
+
+  /*karan page */
+
+    #karanpage{
+      position: absolute;
+      top: 0vh;
+      left: 0vw;
+      width: 100vw;
+      height: 100vh;
+      }
+
+      #karantitle {
+        position: relative;
+        left: 50vw;
+        top: 20vh;
+        height: 10vh;
+        width: 100vw;
+        transform: translate(-50%,0%);
+      }
+
+      #imgkaran2{
+        /*image*/
+        position: relative;
+        left: 50vw;
+        top:15vh;
+        height:60vh;
+        width:auto;
+        transform: translate(-50%);
+      }
+
+      #karantext {
+        position: relative;
+        left: 50vw;
+        top: 10vh;
+        height: 80vh;
+        width: 80vw;
+        transform: translate(-50%, 0%);
+
+        /* text */
+
+        font-family: 'Montserrat';
+        font-size: 18px;
+        text-align: left;
+        letter-spacing: 1px;
+        color: white;
+      }
+
+      #back {
+        position: absolute;
+        top:10vh;
+        left:5vw;
+        height: 5px;
+        width: 50vw;
+        transform: translate(0%, 0%);
+      }
+  }

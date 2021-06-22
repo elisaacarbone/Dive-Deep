@@ -1,13 +1,26 @@
-<svg width="50" height="88" viewBox="0 0 50 88" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M30.5 2.5L19 0.5L10.5 4.5L4.5 13L0.5 49.5L9.5 81L30 86.5L36.5 84.5L42 76L47.5 55.5V44.5L49.5 35L44 13L30.5 2.5Z" fill="#FCFAD4"/>
-<path d="M42 67C42.1667 65.6667 42.4 59.8 42 59L46.5 56L41.5 44.5V40L45.5 40.5L46.5 35.5L45.5 22.5L41.5 12L30 4.5V2.5L45.5 13L47.5 21.5L50 35.5L45.5 44.5L46.5 56L44.5 59L45.5 63.5L40.5 81L37 86L30 87.5L9.5 81.5V78.5L33 85L37 82.5L39.5 73.5L40.5 70.5L39.5 68L42 67Z" fill="#65FADE"/>
-<path d="M26.5 41L22.5 42.5L24.5 44.5H28.5L29.5 42.5L28.5 41H26.5Z" fill="#F1A8D9"/>
-<path d="M43 41L42 42.5L43 43.5H45.5V41H43Z" fill="#F1A8D9"/>
-<path d="M26.5 41L22.5 42.5L24.5 44.5H28.5L29.5 42.5L28.5 41H26.5Z" stroke="black"/>
-<path d="M43 41L42 42.5L43 43.5H45.5V41H43Z" stroke="black"/>
-<path d="M27.5 39L21.5 42.5L26 41H29L31 39.5L27.5 39Z" fill="#A33A59"/>
-<path d="M43 40L42 42L43.5 41H45.5V40H43Z" fill="#A33A59"/>
-<path d="M9.5 4L19.5 0V1L14.5 9.5L10 36L7 51.5L11.5 78.5L9.5 81.5L8 81L7 77.5L0 50L4.5 12.5L9.5 4Z" fill="#65FADE"/>
-<path d="M14.5 7.5L19.5 1L20.5 2L16 7.5L13 36L9 50L12 76.5L12.5 81.5L11 81L10.5 76.5L6.5 50L9 36L14.5 7.5Z" fill="#F1A8D9"/>
-<path d="M40.5 70.5L41.5 67H37L30.5 68L36 70L40.5 70.5Z" fill="#A33A59"/>
+<svg width="153" height="250" viewBox="0 0 153 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<path d="M78.5 61.5L67 59.5L58.5 63.5L52.5 72L48.5 108.5L57.5 140L78 145.5L84.5 143.5L90 135L95.5 114.5V103.5L97.5 94L92 72L78.5 61.5Z" fill="#FCFAD4"/>
+<path d="M90 126C90.1667 124.667 90.4 118.8 90 118L94.5 115L89.5 103.5V99L93.5 99.5L94.5 94.5L93.5 81.5L89.5 71L78 63.5V61.5L93.5 72L95.5 80.5L98 94.5L93.5 103.5L94.5 115L92.5 118L93.5 122.5L88.5 140L85 145L78 146.5L57.5 140.5V137.5L81 144L85 141.5L87.5 132.5L88.5 129.5L87.5 127L90 126Z" fill="#65FADE"/>
+<path d="M74.5 100L70.5 101.5L72.5 103.5H76.5L77.5 101.5L76.5 100H74.5Z" fill="#F1A8D9"/>
+<path d="M91 100L90 101.5L91 102.5H93.5V100H91Z" fill="#F1A8D9"/>
+<path d="M74.5 100L70.5 101.5L72.5 103.5H76.5L77.5 101.5L76.5 100H74.5Z" stroke="black"/>
+<path d="M91 100L90 101.5L91 102.5H93.5V100H91Z" stroke="black"/>
+<path d="M75.5 98L69.5 101.5L74 100H77L79 98.5L75.5 98Z" fill="#A33A59"/>
+<path d="M91 99L90 101L91.5 100H93.5V99H91Z" fill="#A33A59"/>
+<path d="M57.5 63L67.5 59V60L62.5 68.5L58 95L55 110.5L59.5 137.5L57.5 140.5L56 140L55 136.5L48 109L52.5 71.5L57.5 63Z" fill="#65FADE"/>
+<path d="M62.5 66.5L67.5 60L68.5 61L64 66.5L61 95L57 109L60 135.5L60.5 140.5L59 140L58.5 135.5L54.5 109L57 95L62.5 66.5Z" fill="#F1A8D9"/>
+<path d="M88.5 129.5L89.5 126H85L78.5 127L84 129L88.5 129.5Z" fill="#A33A59"/>
+</g>
+<defs>
+<filter id="filter0_d" x="44" y="59" width="58" height="95.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
 </svg>
