@@ -4,18 +4,20 @@
   font-style: normal;
 }
 
-/*div contenitore*/
+/*div contenitore homepage*/
 
 #background {
 		position: absolute;
 		width:100vw;
-		height:300vh;
+		height:200vh;
 		top:0;
 		left:0;
 		margin:0px;
     background: linear-gradient(#90e0ef, #48cae4, #00b4d8, #0096c7, #0077b6, #023e8a, #03045e, #010228);
     z-index: -1;
 }
+
+/*div contenitore case study page*/
 
 #background2 {
 		position: absolute;
@@ -51,7 +53,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  z-index: 1;
+  z-index: 2;
 }
 
 .line {
@@ -87,7 +89,7 @@
   justify-content: center;
   align-items: center;
   transition: right 0.8s;
-  z-index: 1;
+  z-index: 2;
 }
 
 .change {
@@ -353,7 +355,7 @@ color: white;
 #watchthetrailer {
   position: relative;
   left: 50%;
-  top: 20%;
+  top: 14%;
   height: 26px;
   width: 400px;
   margin: 20px;
@@ -371,7 +373,7 @@ color: white;
     width:50%;
     transform:translate(-50%,-50%);
     left: 50%;
-    top: 50%;
+    top: 45%;
     padding-bottom: 28.125%; /* 16:9 */
 }
 
@@ -385,7 +387,7 @@ color: white;
 
 #starttheexperience {
   position: absolute;
-  top:80%;
+  top:75%;
   left:50%;
   height: 20px;
   width: 300px;
@@ -415,6 +417,74 @@ color: white;
   cursor: pointer;
   color: #03045e;
 }
+
+/* div footer*/
+
+#footer-name {
+		position: absolute;
+		width:33vw;
+		height:75px;
+		top: 200vh;
+		left:0;
+    transform: translate(0, -75px);
+    }
+
+.name-list {
+    text-align: left;
+    }
+
+.name-item {
+    list-style: none;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 1px;
+    }
+
+#footer-teacher {
+  		position: absolute;
+  		width:33vw;
+  		height:75px;
+  		top: 200vh;
+  		left:33vw;
+      transform: translate(0, -75px);
+      }
+
+.teacher-list {
+        text-align: center;
+        }
+
+.teacher-item {
+        list-style: none;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-weight: lighter;
+        color: white;
+        letter-spacing: 1px;
+        }
+
+#footer-school {
+      	position: absolute;
+    		width:33vw;
+    		height:75px;
+    		top: 200vh;
+    		left:66vw;
+        transform: translate(-30px, -75px);
+      }
+
+.school-list {
+        text-align: right;
+      }
+
+.school-item {
+        list-style: none;
+        font-size: 12px;
+        font-family: 'Montserrat';
+        font-weight: lighter;
+        color: white;
+        letter-spacing: 1px;
+      }
 
 h5 {
   /* sub-pages title */
