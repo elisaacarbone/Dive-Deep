@@ -443,3 +443,106 @@ color: white;
         color: white;
         letter-spacing: 1px;
       }
+
+
+@media only screen and (max-width:600px) {
+
+  .hamburger-menu {
+    right: 40px;
+  }
+
+  /*div homepage*/
+
+  #title {
+    width: 90vw;
+  }
+
+  #divetodiscoverit {
+    width: 90vw;
+  }
+
+  #watchthetrailer {
+    top: 15%;
+    width: 250px;
+  }
+
+  #trailer-space {
+      width:75%;
+      top: 42%;
+      padding-bottom: 42.1875%; /* 16:9 */
+  }
+
+
+  #starttheexperience {
+    top:65%;
+  }
+
+  /* div footer*/
+
+  #footer-name {
+  		position: absolute;
+  		width:33vw;
+  		height:75px;
+  		top: 200vh;
+  		left:0;
+      transform: translate(0, -75px);
+      }
+
+  .name-list {
+      text-align: left;
+      }
+
+  .name-item {
+      list-style: none;
+      font-size: 9px;
+      font-family: 'Montserrat';
+      font-weight: lighter;
+      color: white;
+      letter-spacing: 1px;
+      }
+
+  #footer-teacher {
+    		position: absolute;
+    		width:33vw;
+    		height:75px;
+    		top: 200vh;
+    		left:33vw;
+        transform: translate(0, -75px);
+        }
+
+  .teacher-list {
+          text-align: center;
+          }
+
+  .teacher-item {
+          list-style: none;
+          font-size: 9px;
+          font-family: 'Montserrat';
+          font-weight: lighter;
+          color: white;
+          letter-spacing: 1px;
+          }
+
+  #footer-school {
+        	position: absolute;
+      		width:33vw;
+      		height:75px;
+      		top: 200vh;
+      		left:66vw;
+          transform: translate(-30px, -75px);
+        }
+
+  .school-list {
+          text-align: right;
+        }
+
+  .school-item {
+          list-style: none;
+          font-size: 9px;
+          font-family: 'Montserrat';
+          font-weight: lighter;
+          color: white;
+          letter-spacing: 1px;
+        }
+
+}
