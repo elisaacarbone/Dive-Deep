@@ -347,20 +347,20 @@ color: white;
   position: absolute;
   top:75%;
   left:50%;
-  height: 20px;
-  width: 300px;
-  transform: translate(-50%,-50%);
+  height: 100px;
+  width: 250px;
+  transform: translate(-50%);
 }
 
-
 .button {
+  display: flex;
   background: none;
   border: 1px solid white;
   border-radius: 20px;
-  padding: 10px 20px;
   font-family: 'Montserrat';
   font-size: 14px;
   text-align: center;
+  padding: 10px 27px 10px;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
