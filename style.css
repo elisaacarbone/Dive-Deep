@@ -29,6 +29,14 @@
     z-index: 1;
     }
 
+#topbarblur {
+  	position: absolute;
+		width:100%;
+  	height:100%;
+    background-color: rgba(144, 224, 239, 0.05);
+    backdrop-filter: blur(8px);
+    }
+
 .hamburger-menu {
   width: 22px;
   height: 22px;
@@ -446,10 +454,6 @@ color: white;
 
 @media only screen and (max-width:600px) {
 
-  .hamburger-menu {
-    right: 40px;
-  }
-
   /*div homepage*/
 
   #title {
@@ -461,7 +465,7 @@ color: white;
   }
 
   #watchthetrailer {
-    top: 15%;
+    top: 20%;
     width: 250px;
   }
 
