@@ -461,7 +461,7 @@ h5 {
     /* text */
 
     font-family: 'Montserrat';
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
     letter-spacing: 1px;
     color: white;
@@ -581,9 +581,8 @@ h5 {
       position: absolute;
       top:50vh;
       left:20vw;
-      height: 5px;
+      height: 10px;
       width: 50vw;
-      transform: translate(0%, 0%);
     }
 
 }
@@ -595,15 +594,14 @@ h5 {
       top: 10vh;
       height: 10vh;
       width: 100vw;
-      transform: translate(-50%,-50%) translate(-20px, -20px);
-      margin: 20px;
+      transform: translate(-50%,0%);
   }
 
   #imgworld{
     /*image*/
     position: relative;
     left: 50vw;
-    top:5vh;
+    top:15vh;
     height:auto;
     width:80vw;
     transform: translate(-50%,-50%);
@@ -677,20 +675,19 @@ h5 {
         /* text */
 
         font-family: 'Montserrat';
-        font-size: 18px;
+        font-size: 16px;
         text-align: left;
         letter-spacing: 1px;
         color: white;
       }
 
-      #back {
-        position: absolute;
-        top:10vh;
+      /* #back {
+        position: relative;
+        top:35vh;
         left:10vw;
-        height: 5px;
-        width: 50vw;
-        transform: translate(0%, 0%);
-      }
+        height: 10px;
+        width: 20vw;
+      } */
 
 }
 
@@ -972,10 +969,9 @@ h5 {
 
       #back {
         position: absolute;
-        top:10vh;
+        top:12vh;
         left:5vw;
-        height: 5px;
+        height: 10px;
         width: 50vw;
-        transform: translate(0%, 0%);
       }
   }
