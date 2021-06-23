@@ -349,7 +349,6 @@ color: white;
   left:50%;
   height: 20px;
   width: 300px;
-  margin: 20px;
   transform: translate(-50%,-50%);
 }
 
@@ -468,7 +467,7 @@ color: white;
 
   #trailer-space {
       width:75%;
-      top: 42%;
+      top: 45%;
       padding-bottom: 42.1875%; /* 16:9 */
   }
 
@@ -480,69 +479,45 @@ color: white;
   /* div footer*/
 
   #footer-name {
-  		position: absolute;
-  		width:33vw;
-  		height:75px;
-  		top: 200vh;
-  		left:0;
-      transform: translate(0, -75px);
-      }
-
-  .name-list {
-      text-align: left;
+  		width:100vw;
+  		height:30px;
+      transform: translate(0, -140px);
       }
 
   .name-item {
-      list-style: none;
       font-size: 9px;
-      font-family: 'Montserrat';
-      font-weight: lighter;
-      color: white;
-      letter-spacing: 1px;
       }
 
   #footer-teacher {
-    		position: absolute;
-    		width:33vw;
-    		height:75px;
+    		width:100vw;
     		top: 200vh;
-    		left:33vw;
-        transform: translate(0, -75px);
+        height:30px;
+    		left: 0;
+        transform: translate(0, -105px);
         }
 
   .teacher-list {
-          text-align: center;
-          }
+        text-align: left;
+        }
 
   .teacher-item {
-          list-style: none;
           font-size: 9px;
-          font-family: 'Montserrat';
-          font-weight: lighter;
-          color: white;
-          letter-spacing: 1px;
           }
 
   #footer-school {
         	position: absolute;
-      		width:33vw;
-      		height:75px;
-      		top: 200vh;
-      		left:66vw;
-          transform: translate(-30px, -75px);
+          height:30px;
+      		width:100vw;
+      		left: 0;
+          transform: translate(0, -70px);
         }
 
   .school-list {
-          text-align: right;
+          text-align: left;
         }
 
   .school-item {
-          list-style: none;
           font-size: 9px;
-          font-family: 'Montserrat';
-          font-weight: lighter;
-          color: white;
-          letter-spacing: 1px;
         }
 
 }
