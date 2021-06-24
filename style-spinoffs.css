@@ -514,6 +514,10 @@
 
 @media only screen and (max-width:600px) {
 
+  .nav-list {
+      height: 65%;
+    }
+
   #spinoffsection { /* title */
     font-size: 36px;
     top: 16vh;
