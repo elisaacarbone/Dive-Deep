@@ -176,24 +176,52 @@
   color: white;
 }
 
-.spinoff_abstract_style {
+.spinoffintrotitle {
+  position: absolute;
+  left: 50%;
+  top:30%;
+  transform: translate(0,-50%);
+  font-family: 'Grotesk';
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  }
+
+.spinoffdiv{
+  position: absolute;
+  height: 60%;
+  width: 90%;
+  left: 5%;
+  top: 20%;
+}
+
+.spinoff{
+  position: absolute;
+  height: 100%;
+  width: 45%;
+}
+
+.spinoff img{
+  object-fit: contain;
+  height: 100%;
+  width: 25vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spinoff_abstract{
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  top:50%;
+  transform: translate(0,-50%);
+
   font-family: 'Montserrat';
   font-size: 16px;
   text-align: left;
   color: white;
 }
-
-.spinoffintrotitle {
-  position: absolute;
-  width:100%;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%,-50%);
-  font-family: 'Grotesk';
-  font-size: 36px;
-  color: white;
-  text-align: center;
-  }
 
 /* 1 spinoff */
 
@@ -203,38 +231,6 @@
   width: 100vw;
   left:0;
   top:0;
-}
-
-#spinoff1div{
-  position: absolute;
-  height: 60%;
-  width: 90%;
-  left: 5%;
-  top: 20%;
-}
-
-#spinoff1{
-  position: absolute;
-  height: 100%;
-  width: 33%;
-}
-
-#spinoff1 img{
-  object-fit: contain;
-  height: 100%;
-  width: 20vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#spinoff1_abstract{
-  position: absolute;
-  height: 25%;
-  width: 66%;
-  left: 33%;
-  top:50%;
-  transform: translate(0,-50%);
 }
 
 #divetodiscoverit {
@@ -338,38 +334,6 @@
   top:100vh;
 }
 
-#spinoff2div{
-  position: absolute;
-  height: 60%;
-  width: 90%;
-  left: 5%;
-  top: 20%;
-}
-
-#spinoff2{
-  position: absolute;
-  height: 100%;
-  width: 33%;
-}
-
-#spinoff2 img{
-  object-fit: contain;
-  height: 100%;
-  width: 20vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#spinoff2_abstract{
-  position: absolute;
-  height: 25%;
-  width: 66%;
-  left: 33%;
-  top:50%;
-  transform: translate(0,-50%);
-}
-
 #divetodiscoverit2 {
   position: absolute;
   left: 50%;
@@ -471,38 +435,6 @@
   top:200vh;
 }
 
-#spinoff3div{
-  position: absolute;
-  height: 60%;
-  width: 90%;
-  left: 5%;
-  top: 20%;
-}
-
-#spinoff3{
-  position: absolute;
-  height: 100%;
-  width: 33%;
-}
-
-#spinoff3 img{
-  object-fit: contain;
-  height: 100%;
-  width: 20vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#spinoff3_abstract{
-  position: absolute;
-  height: 25%;
-  width: 66%;
-  left: 33%;
-  top:50%;
-  transform: translate(0,-50%);
-}
-
 /* div footer*/
 
 #footer-name {
@@ -573,10 +505,85 @@
 
 @media only screen and (max-width:600px) {
 
-  #spinoffsection {
-    width: 90vw;
-    top: 20vh;
+  #spinoffsection { /* title */
+    font-size: 36px;
+    top: 16vh;
   }
 
+  .spinoffdiv{
+    height: 62%;
+    width: 80%;
+    left: 10%;
+    top: 18%;
+  }
+
+  .spinoffintrotitle {
+    left: 50%;
+    top:55%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    width:100%;
+    }
+
+  .spinoff{
+    height: 50%;
+    width: 100%;
+  }
+
+  .spinoff img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .spinoff_abstract{
+    width: 100%;
+    left: 0;
+    top:60%;
+    transform: translate(0,0);
+    font-size: 13px;
+  }
+
+  /* div footer*/
+
+  #footer-name {
+  		width:100vw;
+  		height:30px;
+      transform: translate(0, -140px);
+      }
+
+  .name-item {
+      font-size: 9px;
+      }
+
+  #footer-teacher {
+    		width:100vw;
+        height:30px;
+    		left: 0;
+        transform: translate(0, -105px);
+        }
+
+  .teacher-list {
+        text-align: left;
+        }
+
+  .teacher-item {
+          font-size: 9px;
+          }
+
+  #footer-school {
+        	position: absolute;
+          height:30px;
+      		width:100vw;
+      		left: 0;
+          transform: translate(0, -70px);
+        }
+
+  .school-list {
+          text-align: left;
+        }
+
+  .school-item {
+          font-size: 9px;
+        }
 
 }
