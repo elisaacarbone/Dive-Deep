@@ -29,6 +29,14 @@
     z-index: 1;
     }
 
+#topbarblur {
+  	position: absolute;
+		width:100%;
+  	height:100%;
+    background-color: rgba(144, 224, 239, 0.05);
+    backdrop-filter: blur(8px);
+    }    
+
 .hamburger-menu {
   width: 22px;
   height: 22px;
@@ -231,6 +239,7 @@ input::placeholder{
   text-align: center;
   letter-spacing: 1px;
   color: white;
+  transform: translate(0, 10px);
 }
 
 #already a {
@@ -305,53 +314,72 @@ input::placeholder{
         letter-spacing: 1px;
       }
 
-      @media only screen and (max-width:600px) {
+@media only screen and (max-width:600px) {
 
-        .nav-list {
-            height: 65%;
-          }
+.nav-list {
+    height: 65%;
+    }
 
-        /* div footer*/
+#signuptitle {
+    top: 16vh;
+    font-size: 36px;
+    }
 
-        #footer-name {
-        		width:100vw;
-        		height:30px;
-            transform: translate(0, -140px);
-            }
+#signupspace {
+    top: 45vh;
+    height: 300px;
+    width: 250px;
+    }
 
-        .name-item {
-            font-size: 9px;
-            }
+#signupspace input {
+   font-size: 13px;
+}
 
-        #footer-teacher {
-          		width:100vw;
-              height:30px;
-          		left: 0;
-              transform: translate(0, -105px);
-              }
+#already {
+  font-size: 13px;
+}
 
-        .teacher-list {
-              text-align: left;
-              }
+/* div footer*/
 
-        .teacher-item {
-                font-size: 9px;
-                }
+#footer-name {
+		width:100vw;
+	  height:30px;
+    transform: translate(0, -140px);
+    }
 
-        #footer-school {
-              	position: absolute;
-                height:30px;
-            		width:100vw;
-            		left: 0;
-                transform: translate(0, -70px);
-              }
+.name-item {
+    font-size: 9px;
+    }
 
-        .school-list {
-                text-align: left;
-              }
+#footer-teacher {
+		width:100vw;
+    height:30px;
+		left: 0;
+    transform: translate(0, -105px);
+    }
 
-        .school-item {
-                font-size: 9px;
-              }
+.teacher-list {
+    text-align: left;
+    }
 
-      }
+.teacher-item {
+    font-size: 9px;
+    }
+
+#footer-school {
+  	position: absolute;
+    height:30px;
+		width:100vw;
+		left: 0;
+    transform: translate(0, -70px);
+    }
+
+.school-list {
+    text-align: left;
+    }
+
+.school-item {
+    font-size: 9px;
+    }
+
+}
