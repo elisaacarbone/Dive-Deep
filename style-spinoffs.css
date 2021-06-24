@@ -223,6 +223,15 @@
   color: white;
 }
 
+/*image spin-off structure*/
+#str-spinoff{
+  position: absolute;
+  height: 20vh;
+  width: 30vw;
+  left:35vw;
+  top:10vh;
+}
+
 /* 1 spinoff */
 
 #primospinoff{
@@ -542,6 +551,15 @@
     transform: translate(0,0);
     font-size: 13px;
   }
+
+  #str-spinoff{
+    position: absolute;
+    height: 20vh;
+    width: 60vw;
+    left:20vw;
+    top:0vh;
+  }
+
 
   /* div footer*/
 
