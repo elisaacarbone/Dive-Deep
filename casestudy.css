@@ -59,7 +59,7 @@
   	position: absolute;
 		width:100%;
   	height:100%;
-    background-color: rgba(144, 224, 239, 0.05);
+    background-color: rgba(144, 224, 239, 0.2);
     backdrop-filter: blur(8px);
     }
 
@@ -291,6 +291,7 @@
 
 /* div 2nd section*/
 
+/*button style*/
 
 .button {
   display: flex;
@@ -559,8 +560,8 @@ h5 {
     transform: translate(-50%, -500%);
   }
 
-  .button{
-    padding: 10px 75px 10px;
+  #thedome .button {
+    padding:10px 80px 10px;
   }
 
   #thegloom {
@@ -571,6 +572,10 @@ h5 {
     width: 250px;
     margin: 10px;
     transform: translate(-50%,-500%);
+  }
+
+  #thegloom .button {
+    padding:10px 75px 10px;
   }
 
   #timeline {
@@ -849,6 +854,10 @@ h5 {
     /* transform: translate(-50%,-50%); */
   }
 
+  #ch-button1 .button {
+    padding:10px 22px 10px;
+  }
+
 
   #ch-button2{
     position: absolute;
@@ -856,6 +865,10 @@ h5 {
     top: 75vh;
     width:100px;
     /* transform: translate(-50%,-50%); */
+  }
+
+  #ch-button2 .button {
+    padding:10px 25px 10px;
   }
 
   #ch-button3{
@@ -866,12 +879,20 @@ h5 {
     /* transform: translate(-50%,-50%); */
   }
 
+  #ch-button3 .button {
+    padding:10px 27px 10px;
+  }
+
   #ch-button4{
     position: absolute;
     left:80vw;
     top: 75vh;
     width:100px;
     /* transform: translate(-50%,-50%); */
+  }
+
+  #ch-button4 .button {
+    padding:10px 42px 10px;
   }
 
   /*karan page */
@@ -1001,13 +1022,20 @@ h5 {
     transform: translate(0%, 0%);
   }
 
+  #ch-button1 .button {
+    padding:10px 22px 10px;
+  }
+
   #ch-button2{
     position: absolute;
     left:35vw;
     top: 120vh;
     width:100px;
     height: 50px;
+  }
 
+  #ch-button2 .button {
+    padding:10px 25px 10px;
   }
 
   #ch-button3{
@@ -1019,6 +1047,10 @@ h5 {
     /* transform: translate(-50%,-50%); */
   }
 
+  #ch-button3 .button {
+    padding:10px 27px 10px;
+  }
+
   #ch-button4{
     position: absolute;
     left:35vw;
@@ -1028,6 +1060,9 @@ h5 {
     /* transform: translate(-50%,-50%); */
   }
 
+  #ch-button4 .button {
+    padding:10px 42px 10px;
+  }
 
 
   /*karan page */
