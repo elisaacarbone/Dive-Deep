@@ -29,6 +29,14 @@
     z-index: 1;
     }
 
+#topbarblur {
+    position: absolute;
+    width:100%;
+    height:100%;
+    background-color: rgba(144, 224, 239, 0.05);
+    backdrop-filter: blur(8px);
+    }    
+
 .hamburger-menu {
   width: 22px;
   height: 22px;
@@ -206,8 +214,7 @@ color: white;
 position: relative;
 left: 50%;
 top: 42%;
-height: 20px;
-width: 40%;
+width: 50%;
 transform: translate(-50%, 0) translate(0, -20px);
 margin-bottom: 20px;
 
@@ -322,13 +329,11 @@ color: white;
 }
 
 #spiegazione {
-position: relative;
+position: absolute;
 left: 50%;
 top: 40%;
-height: 20px;
-width: 40%;
-transform: translate(-50%, 0) translate(0, -20px);
-margin-bottom: 20px;
+width: 50%;
+transform: translate(-50%, 0);
 
 font-family: 'Montserrat';
 font-weight: lighter;
@@ -340,13 +345,11 @@ color: white;
 }
 
 #spiegazione2 {
-position: relative;
+position: absolute;
 left: 50%;
-top: 45%;
-height: 20px;
-width: 40%;
-transform: translate(-50%, 0) translate(0, -20px);
-margin-bottom: 20px;
+top: 50%;
+width: 50%;
+transform: translate(-50%, 0);
 
 font-family: 'Montserrat';
 font-weight: lighter;
@@ -457,13 +460,12 @@ color: white;
 }
 
 #prettyconvinced {
-position: relative;
+position: absolute;
 left: 50%;
-top: 15%;
+top: 20%;
 height: 20px;
-width: 40%;
-transform: translate(-50%, 0) translate(0, -20px);
-margin-bottom: 20px;
+width: 50%;
+transform: translate(-50%, 0);
 
 font-family: 'Montserrat';
 font-weight: lighter;
@@ -740,3 +742,122 @@ color: white;
         color: white;
         letter-spacing: 1px;
       }
+
+@media only screen and (max-width:600px) {
+
+  #reason {
+  font-size: 16px;
+  width: 80%;
+  }
+
+  #spiegazione {
+  font-size: 16px;
+  width: 80%;
+  top:30%;
+  }
+
+  #spiegazione2 {
+  font-size: 16px;
+  width: 80%;
+  top: 48%;
+  }
+
+  #prettyconvinced {
+  font-size: 16px;
+  top: 16%;
+  width: 80%;
+  }
+
+  #community {
+    top: 22%;
+    height: 45%;
+    width: 100%;
+  }
+
+  #individual {
+    top:45%;
+    height: 45%;
+    width: 100%;
+    left:0;
+  }
+
+  #spiegazioneevento {
+  width: 80%;
+  font-size: 16px;
+  top: 16%;
+  }
+
+  #completetheexperience{
+    width: 80%;
+  }
+
+  #athome{
+    height: 30%;
+    width: 44%;
+    left: 4%;
+  }
+
+  #beauty {
+    height: 30%;
+    width: 44%;
+    left: 52%;
+  }
+
+  #outside {
+    height: 30%;
+    width: 44%;
+    left: 4%;
+    top: 50%;
+  }
+
+  #challenges{
+    height: 30%;
+    width: 44%;
+    left: 52%;
+    top: 50%;
+  }
+
+
+  /* div footer*/
+
+  #footer-name {
+      width:100vw;
+      height:30px;
+      transform: translate(0, -140px);
+      }
+
+  .name-item {
+      font-size: 9px;
+      }
+
+  #footer-teacher {
+        width:100vw;
+        height:30px;
+        left: 0;
+        transform: translate(0, -105px);
+        }
+
+  .teacher-list {
+        text-align: left;
+        }
+
+  .teacher-item {
+          font-size: 9px;
+          }
+
+  #footer-school {
+          position: absolute;
+          height:30px;
+          width:100vw;
+          left: 0;
+          transform: translate(0, -70px);
+        }
+
+  .school-list {
+          text-align: left;
+        }
+
+  .school-item {
+          font-size: 9px;
+        }
+}
