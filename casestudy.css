@@ -180,7 +180,6 @@
   letter-spacing: 1px;
 
   color: white;
-  z-index: 1;
 }
 
 
@@ -334,6 +333,7 @@ h5 {
 
 /* If the screen size is 601px or more */
 @media only screen and (min-width: 601px) {
+
   #trailer-space2 iframe {
    position: absolute;
    top: 65%;
@@ -430,6 +430,11 @@ h5 {
 
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 600px) {
+
+  .nav-list {
+      height: 65%;
+    }
+
   #sdgtitle {
     position: relative;
     left: 50vw;

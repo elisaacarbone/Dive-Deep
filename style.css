@@ -454,6 +454,10 @@ color: white;
 
 @media only screen and (max-width:600px) {
 
+  .nav-list {
+      height: 65%;
+    }
+
   /*div homepage*/
 
   #title {

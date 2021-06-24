@@ -35,7 +35,7 @@
     height:100%;
     background-color: rgba(144, 224, 239, 0.05);
     backdrop-filter: blur(8px);
-    }    
+    }
 
 .hamburger-menu {
   width: 22px;
@@ -627,7 +627,6 @@ color: white;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
 }
 
 #completetheexperience img {
@@ -642,6 +641,7 @@ color: white;
   width: 20%;
   left: 4%;
   top: 25%;
+  z-index: -1;
 }
 
 #beauty {
@@ -650,6 +650,7 @@ color: white;
   width: 20%;
   left: 28%;
   top: 25%;
+  z-index: -1;
 }
 
 #outside {
@@ -658,6 +659,7 @@ color: white;
   width: 20%;
   left: 52%;
   top: 25%;
+  z-index: -1;
 }
 
 #challenges{
@@ -666,6 +668,7 @@ color: white;
   width: 20%;
   left: 76%;
   top: 25%;
+  z-index: -1;
 }
 
 .eventcategories img {
@@ -744,6 +747,10 @@ color: white;
       }
 
 @media only screen and (max-width:600px) {
+
+.nav-list {
+    height: 65%;
+  }
 
   #reason {
   font-size: 16px;

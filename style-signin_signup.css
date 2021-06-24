@@ -304,3 +304,54 @@ input::placeholder{
         color: white;
         letter-spacing: 1px;
       }
+
+      @media only screen and (max-width:600px) {
+
+        .nav-list {
+            height: 65%;
+          }
+
+        /* div footer*/
+
+        #footer-name {
+        		width:100vw;
+        		height:30px;
+            transform: translate(0, -140px);
+            }
+
+        .name-item {
+            font-size: 9px;
+            }
+
+        #footer-teacher {
+          		width:100vw;
+              height:30px;
+          		left: 0;
+              transform: translate(0, -105px);
+              }
+
+        .teacher-list {
+              text-align: left;
+              }
+
+        .teacher-item {
+                font-size: 9px;
+                }
+
+        #footer-school {
+              	position: absolute;
+                height:30px;
+            		width:100vw;
+            		left: 0;
+                transform: translate(0, -70px);
+              }
+
+        .school-list {
+                text-align: left;
+              }
+
+        .school-item {
+                font-size: 9px;
+              }
+
+      }
