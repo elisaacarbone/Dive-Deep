@@ -34,7 +34,7 @@
   #background2 {
   		position: absolute;
   		width:100vw;
-  		height:900vh;
+  		height:950vh;
   		top:0;
   		left:0;
   		margin:0px;
@@ -409,6 +409,7 @@ h5 {
 
  #casestudyvideo {
    width: 300px;
+   top: 35%;
  }
 
 }
@@ -666,9 +667,9 @@ h5 {
 
   #imgworld1{
     /*image*/
-    position: relative;
+    position: absolute;
     left: 50vw;
-    top:5vh;
+    top:120px;
     height:auto;
     width:100vw;
     transform: translate(-50%,0%);
@@ -676,9 +677,9 @@ h5 {
 
   #imgworld2{
     /*image*/
-    position: relative;
+    position: absolute;
     left: 50vw;
-    top:15vh;
+    top:400px;
     height:auto;
     width:100vw;
     transform: translate(-50%,0%);
@@ -687,7 +688,7 @@ h5 {
 
   #thedome {
     position: absolute;
-    top:40vh;
+    top:320px;
     left:50%;
     height: 50px;
     width: 200px;
@@ -696,7 +697,7 @@ h5 {
 
   #thegloom {
     position: absolute;
-    top:73vh;
+    top:600px;
     left: 50%;
     height: 50px;
     width: 200px;
@@ -705,9 +706,9 @@ h5 {
 
   #timeline {
     /*image*/
-    position: relative;
+    position: absolute;
     left: 50vw;
-    top:30vh;
+    top:670px;
     width: 90vw;
     height: auto;
     transform: translate(-50%,0%);
@@ -946,6 +947,15 @@ h5 {
 }
 
 @media only screen and (max-width: 600px) {
+
+  #thecharacters {
+    position: absolute;
+    left: 0vw;
+    top: 310vh;
+    height: auto;
+    width: 100vw;
+  }
+
   #thecharacterstitle {
     position: relative;
     left: 50vw;
@@ -1527,7 +1537,7 @@ h5 {
     position: relative;
     left: 50vw;
     top: 10vh;
-    height: 50vh;
+    height: 55vh;
     width: 100vw;
     transform: translate(-50%,0%);
   }
@@ -1543,11 +1553,11 @@ h5 {
 
     #exptext1 {
         position: absolute;
-        left: 50vw;
+        left: 20vw;
         top: 5vh;
-        height: auto;
-        width: 60vw;
-        transform: translate(-50%,0%);
+        height: 40vh;
+        width: 65vw;
+
     }
 
     .structuretext{
@@ -1564,8 +1574,8 @@ h5 {
     #str2{
       position: relative;
       left: 50vw;
-      top: 5vh;
-      height: 40vh;
+      top: 10vh;
+      height: 50vh;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1581,18 +1591,18 @@ h5 {
 
     #exptext2 {
         position: absolute;
-        left: 50vw;
+        left: 20vw;
         top: 0vh;
-        height: 35vh;
-        width: 60vw;
-        transform: translate(-50%,0%);
+        height: 40vh;
+        width: 65vw;
+
     }
 
     #str3{
       position: relative;
       left: 50vw;
-      top: 5vh;
-      height:40vh;
+      top: 10vh;
+      height:55vh;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1608,11 +1618,11 @@ h5 {
 
     #exptext3 {
         position: absolute;
-        left: 50vw;
+        left: 20vw;
         top: 0vh;
-        height: 40vh;
-        width: 60vw;
-        transform: translate(-50%,0%);
+        height: 45vh;
+        width: 65vw;
+
     }
 
     #exptext3 a {
@@ -1624,7 +1634,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 10vh;
-      height: 40vh;
+      height: 45vh;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1640,11 +1650,11 @@ h5 {
 
     #exptext4 {
         position: absolute;
-        left: 50vw;
+        left: 20vw;
         top: 0vh;
         height: auto;
-        width: 60vw;
-        transform: translate(-50%,0%);
+        width: 65vw;
+
     }
 
     #str5{
@@ -1667,11 +1677,11 @@ h5 {
 
     #exptext5 {
         position: absolute;
-        left: 50vw;
+        left: 20vw;
         top: 0vh;
         height: auto;
-        width: 60vw;
-        transform: translate(-50%,0%);
+        width: 65vw;
+
     }
   }
 
@@ -1750,7 +1760,7 @@ h5 {
 
   #footer-name {
       position: absolute;
-      top: 900vh;
+      top: 950vh;
       width:100vw;
   		height:30px;
       transform: translate(0,-140px);
@@ -1762,7 +1772,7 @@ h5 {
 
   #footer-teacher {
       position: absolute;
-      top: 900vh;
+      top: 950vh;
         width:100vw;
         height:30px;
     		left: 0;
@@ -1779,7 +1789,7 @@ h5 {
 
   #footer-school {
         	position: absolute;
-          top: 900vh;
+          top: 950vh;
           height:30px;
       		width:100vw;
       		left: 0;
