@@ -35,6 +35,7 @@
   	height:100%;
     background-color: rgba(144, 224, 239, 0.05);
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
   }
 
 .hamburger-menu {
@@ -176,6 +177,25 @@
   color: white;
 }
 
+/*image spin-off structure*/
+#str-spinoff{
+  position: absolute;
+  height: 10vh;
+  width: 30vw;
+  left:50vw;
+  top:25vh;
+  transform: translate(-50%,-50%);
+}
+
+#str-spinoff img{
+  object-fit: contain;
+  height: 100%;
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .spinoffintrotitle {
   position: absolute;
   left: 50%;
@@ -222,24 +242,14 @@
   text-align: left;
   color: white;
 }
-
-/*image spin-off structure*/
-#str-spinoff{
-  position: absolute;
-  height: 20vh;
-  width: 30vw;
-  left:35vw;
-  top:10vh;
-}
-
 /* 1 spinoff */
 
 #primospinoff{
   position: absolute;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   left:0;
-  top:0;
+  top:10vh;
 }
 
 #divetodiscoverit {
@@ -553,17 +563,13 @@
     left: 0;
     top:60%;
     transform: translate(0,0);
-    font-size: 13px;
+    font-size: 12px;
   }
 
   #str-spinoff{
-    position: absolute;
-    height: 20vh;
-    width: 60vw;
-    left:20vw;
-    top:0vh;
+    width: 80vw;
+    top:22vh;
   }
-
 
   /* div footer*/
 
