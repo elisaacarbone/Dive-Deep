@@ -664,7 +664,7 @@
   #theworldtitle {
       position: absolute;
       left: 50vw;
-      top: 10%;
+      top: 5%;
       height: 10vh;
       width: 100vw;
       transform: translate(-50%,0%);
@@ -679,7 +679,7 @@
     /*image*/
     position: absolute;
     left: 50vw;
-    top:120px;
+    top:90px;
     height:auto;
     width:100vw;
     transform: translate(-50%,0%);
@@ -689,7 +689,7 @@
     /*image*/
     position: absolute;
     left: 50vw;
-    top:400px;
+    top:390px;
     height:auto;
     width:100vw;
     transform: translate(-50%,0%);
@@ -698,7 +698,7 @@
 
   #thedome {
     position: absolute;
-    top:340px;
+    top:330px;
     left:50%;
     height: 50px;
     width: 200px;
@@ -707,7 +707,7 @@
 
   #thegloom {
     position: absolute;
-    top:620px;
+    top:630px;
     left: 50%;
     height: 50px;
     width: 200px;
@@ -718,7 +718,7 @@
     /*image*/
     position: absolute;
     left: 50vw;
-    top:690px;
+    top:710px;
     width: 90vw;
     height: auto;
     transform: translate(-50%,0%);
