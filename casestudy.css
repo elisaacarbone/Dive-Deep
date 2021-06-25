@@ -34,7 +34,7 @@
   #background2 {
   		position: absolute;
   		width:100vw;
-  		height:950vh;
+  		height:880vh;
   		top:0;
   		left:0;
   		margin:0px;
@@ -188,11 +188,43 @@
 #project { /* title */
   position: absolute;
   left: 50vw;
-  top: 5vh;
+  top: 15vh;
   height: 46px;
   width: 100vw;
   transform: translate(-50%,-50%);
+
+  font-family: 'Grotesk';
+  font-size: 40px;
+  text-align: center;
+
+  color: white;
 }
+
+#instructions {
+  position: absolute;
+  left: 50vw;
+  top: 25vh;
+  width: 250px;
+  transform: translate(-50%,-50%);
+  padding:10px 20px;
+  border: 3px solid #010228;
+  border-radius: 30px;
+
+  font-family: 'Montserrat';
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+
+  color: #010228;
+  background-color: #ffd60a;
+
+  opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+#instructions {opacity: 1;}
+}
+
 
 /*page contents*/
 
@@ -316,24 +348,6 @@
   color: #03045e;
 }
 
-h5 {
-  /* sub-pages title */
-  position: absolute;
-  left: 50vw;
-  top: 15vh;
-  height: 46px;
-  width: 100vw;
-  transform: translate(-50%,-50%);
-
-  font-family: 'Grotesk';
-  font-size: 40px;
-  text-align: center;
-
-  color: white;
-}
-
-
-
 /* div Project section*/
 
 #divcontent1 {
@@ -345,37 +359,36 @@ h5 {
 }
 
 #casestudyvideo {
-  position: relative;
+  position: absolute;
   left: 50%;
-  top: 30%;
+  top: 25%;
   height: 26px;
   width: 400px;
   margin: 20px;
   transform: translate(-50%,-50%) translate(-20px, -20px);
 }
 
-#trailer-space2 {
-    position: absolute;
-    width:50%;
-    transform:translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-    padding-bottom: 28.125%; /* 16:9 */
+#trailer-space {
+      position: absolute;
+      width:50%;
+      transform:translate(-50%,-50%);
+      left: 50%;
+      top: 55%;
+      padding-bottom: 28.125%; /* 16:9 */
 }
 
-
+#trailer-space iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 /* If the screen size is 601px or more */
 @media only screen and (min-width: 601px) {
 
-  #trailer-space2 iframe {
-   position: absolute;
-   top: 65%;
-   left: 50%;
-   width: 75%;
-   height: 75%;
-   transform:translate(-50%,-50%);
- }
+
 
  .subtitle{
    font-family: 'Grotesk';
@@ -390,14 +403,11 @@ h5 {
 
 /* If the screen size is 600px or less */
 @media only screen and (max-width: 600px) {
-  #trailer-space2 iframe {
-   position: absolute;
-   top: 65%;
-   left: 50%;
-   width: 150%;
-   height: 150%;
-   transform:translate(-50%,-50%);
- }
+
+  #trailer-space {
+      width:75%;
+      padding-bottom: 42.1875%; /* 16:9 */
+  }
 
  .subtitle{
    width: 80vw;
@@ -431,7 +441,7 @@ h5 {
   #sdgtitle {
     position: relative;
     left: 50vw;
-    top: 10vh;
+    top: 25vh;
     height: 10vh;
     width: 100vw;
     transform: translate(-50%,-50%);
@@ -441,18 +451,18 @@ h5 {
     /*image*/
     position: relative;
     left: 50vw;
-    top:15vh;
+    top:30vh;
     height:10vw;
     width:10vw;
     transform: translate(-50%,-50%);
   }
 
   #sdgtext {
-    position: relative;
+    position: absolute;
     left: 50vw;
-    top: 10vh;
+    top: 55vh;
     height: 80vh;
-    width: 30vw;
+    width: 40vw;
     transform: translate(-50%, 0%);
 
     /* text */
@@ -475,7 +485,7 @@ h5 {
   #sdgtitle {
     position: absolute;
     left: 10vw;
-    top: 5vh;
+    top: 15vh;
     height: 80px;
     width: 80vw;
     }
@@ -484,7 +494,7 @@ h5 {
     /*image*/
     position: absolute;
     left: 50vw;
-    top:20vh;
+    top:27vh;
     height:50vw;
     width:50vw;
     transform: translate(-50%,0%);
@@ -493,7 +503,7 @@ h5 {
   #sdgtext {
     position: absolute;
     left: 10vw;
-    top: 50vh;
+    top: 58vh;
     height: 80vh;
     width: 80vw;
 
@@ -501,7 +511,7 @@ h5 {
     /* text */
 
     font-family: 'Montserrat';
-    font-size: 16px;
+    font-size: 13px;
     text-align: left;
     letter-spacing: 1px;
     color: white;
@@ -522,9 +532,9 @@ h5 {
 
 @media only screen and (min-width: 601px) {
   #theworldtitle {
-      position: relative;
+      position: absolute;
       left: 50vw;
-      top: 5vh;
+      top: 10%;
       height: 10vh;
       width: 100vw;
       transform: translate(-50%,-50%) translate(-20px, -20px);
@@ -533,9 +543,9 @@ h5 {
 
   #imgworld{
     /*image*/
-    position: relative;
+    position: absolute;
     left: 50vw;
-    top:15vh;
+    top:30%;
     height:auto;
     width:70vw;
     transform: translate(-50%,-50%);
@@ -553,7 +563,7 @@ h5 {
 
   #thedome {
     position: absolute;
-    top:60vh;
+    top:60%;
     left:30vw;
     height: 20px;
     width: 250px;
@@ -567,7 +577,7 @@ h5 {
 
   #thegloom {
     position: absolute;
-    top:60vh;
+    top:60%;
     left: 70vw;
     height: 20px;
     width: 250px;
@@ -581,9 +591,9 @@ h5 {
 
   #timeline {
     /*image*/
-    position: relative;
+    position: absolute;
     left: 50vw;
-    top:15vh;
+    top:65%;
     width: 80vw;
     height: auto;
     transform: translate(-50%,0%);
@@ -1350,7 +1360,7 @@ h5 {
     position: relative;
     left: 50vw;
     top: 10vh;
-    height: 20vh;
+    height: 250px;
     width: 100vw;
     transform: translate(-50%,0%);
   }
@@ -1359,7 +1369,7 @@ h5 {
       /*image*/
       position: absolute;
       left:15vw;
-      top:0vh;
+      top:45px;
       height:auto;
       width:60px;
     }
@@ -1389,7 +1399,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 10vh;
-      height: 20vh;
+      height: 190px;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1398,7 +1408,7 @@ h5 {
       /*image*/
       position: absolute;
       left:15vw;
-      top:0vh;
+      top:18px;
       height:auto;
       width:40px;
     }
@@ -1417,7 +1427,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 10vh;
-      height: 20vh;
+      height: 235px;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1426,7 +1436,7 @@ h5 {
       /*image*/
       position: absolute;
       left:15vw;
-      top:0vh;
+      top:45px;
       height:auto;
       width:60px;
     }
@@ -1450,7 +1460,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 10vh;
-      height: 20vh;
+      height: 190px;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1459,7 +1469,7 @@ h5 {
       /*image*/
       position: absolute;
       left:15vw;
-      top:0vh;
+      top:18px;
       height:auto;
       width:60px;
     }
@@ -1478,7 +1488,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 10vh;
-      height: 20vh;
+      height: 200px;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1487,7 +1497,7 @@ h5 {
       /*image*/
       position: absolute;
       left:15vw;
-      top:0vh;
+      top:35px;
       height:auto;
       width:60px;
     }
@@ -1537,7 +1547,7 @@ h5 {
     position: relative;
     left: 50vw;
     top: 10vh;
-    height: 55vh;
+    height: 280px;
     width: 100vw;
     transform: translate(-50%,0%);
   }
@@ -1546,7 +1556,7 @@ h5 {
       /*image*/
       position: absolute;
       left:8vw;
-      top:0vh;
+      top:35px;
       height:auto;
       width:35px;
     }
@@ -1557,12 +1567,13 @@ h5 {
         top: 5vh;
         height: 40vh;
         width: 65vw;
+        padding-left:20px;
 
     }
 
     .structuretext{
       font-family: 'Montserrat';
-      font-size: 16px;
+      font-size: 13px;
       text-align: left;
       /* text-transform: uppercase; */
       letter-spacing: 1px;
@@ -1575,7 +1586,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 10vh;
-      height: 50vh;
+      height: 200px;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1584,7 +1595,7 @@ h5 {
       /*image*/
       position: absolute;
       left:8vw;
-      top:0vh;
+      top:5px;
       height:auto;
       width:35px;
     }
@@ -1595,6 +1606,7 @@ h5 {
         top: 0vh;
         height: 40vh;
         width: 65vw;
+        padding-left:20px;
 
     }
 
@@ -1602,7 +1614,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 10vh;
-      height:55vh;
+      height:280px;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1610,8 +1622,8 @@ h5 {
     #imgstructure3{
       /*image*/
       position: absolute;
-      left:7vw;
-      top:0vh;
+      left:9vw;
+      top:5px;
       height:auto;
       width:35px;
     }
@@ -1622,6 +1634,7 @@ h5 {
         top: 0vh;
         height: 45vh;
         width: 65vw;
+        padding-left:20px;
 
     }
 
@@ -1634,7 +1647,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 10vh;
-      height: 45vh;
+      height: 280px;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1643,7 +1656,7 @@ h5 {
       /*image*/
       position: absolute;
       left:8vw;
-      top:0vh;
+      top:5px;
       height:auto;
       width:35px;
     }
@@ -1654,6 +1667,7 @@ h5 {
         top: 0vh;
         height: auto;
         width: 65vw;
+        padding-left:20px;
 
     }
 
@@ -1661,7 +1675,7 @@ h5 {
       position: relative;
       left: 50vw;
       top: 5vh;
-      height: 50vh;
+      height: 200px;
       width: 100vw;
       transform: translate(-50%,0%);
     }
@@ -1670,7 +1684,7 @@ h5 {
       /*image*/
       position: absolute;
       left:8vw;
-      top:0vh;
+      top:5px;
       height:auto;
       width:35px;
     }
@@ -1681,6 +1695,7 @@ h5 {
         top: 0vh;
         height: auto;
         width: 65vw;
+        padding-left:20px;
 
     }
   }
@@ -1760,7 +1775,7 @@ h5 {
 
   #footer-name {
       position: absolute;
-      top: 950vh;
+      top: 880vh;
       width:100vw;
   		height:30px;
       transform: translate(0,-140px);
@@ -1772,7 +1787,7 @@ h5 {
 
   #footer-teacher {
       position: absolute;
-      top: 950vh;
+      top: 880vh;
         width:100vw;
         height:30px;
     		left: 0;
@@ -1789,7 +1804,7 @@ h5 {
 
   #footer-school {
         	position: absolute;
-          top: 950vh;
+          top: 880vh;
           height:30px;
       		width:100vw;
       		left: 0;
