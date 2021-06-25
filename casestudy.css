@@ -698,7 +698,7 @@
 
   #thedome {
     position: absolute;
-    top:330px;
+    top:340px;
     left:50%;
     height: 50px;
     width: 200px;
@@ -707,7 +707,7 @@
 
   #thegloom {
     position: absolute;
-    top:610px;
+    top:620px;
     left: 50%;
     height: 50px;
     width: 200px;
@@ -718,7 +718,7 @@
     /*image*/
     position: absolute;
     left: 50vw;
-    top:685px;
+    top:690px;
     width: 90vw;
     height: auto;
     transform: translate(-50%,0%);
