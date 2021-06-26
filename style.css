@@ -17,6 +17,18 @@
     z-index: -1;
 }
 
+#bg-image{
+  width:100vw;
+  height: 190vh;
+  opacity: 0.2;
+}
+
+@media only screen and (min-width:601px) {
+    #bg-image2{
+    display: none;
+  }
+}
+
 /*div navbar*/
 
 #topbar {
@@ -456,6 +468,19 @@ color: white;
 
   .nav-list {
       height: 65%;
+    }
+
+#bg-image {
+  display: none;
+}
+
+    #bg-image2 {
+      position: absolute;
+      top:50px;
+      left:0px;
+      width: 90vw;
+      height: auto;
+      opacity: 0.2;
     }
 
   /*div homepage*/

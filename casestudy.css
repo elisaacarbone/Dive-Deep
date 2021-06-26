@@ -28,6 +28,17 @@
       background: linear-gradient(#90e0ef, #48cae4, #00b4d8, #0096c7, #0077b6, #023e8a, #03045e, #010228);
       z-index: -1;
   }
+
+  #bg-image{
+    width:95vw;
+    height: 740vh;
+    opacity: 0.6;
+  }
+
+  #bg-image2{
+      display: none;
+    }
+
 }
 
 @media only screen and (max-width:600px) {
@@ -41,7 +52,47 @@
       background: linear-gradient(#90e0ef, #48cae4, #00b4d8, #0096c7, #0077b6, #023e8a, #03045e, #010228);
       z-index: -1;
   }
+
+  #bg-image {
+    display: none;
+  }
+
+      #bg-image2 {
+        position: absolute;
+        top:50px;
+        left:0px;
+        width: 90vw;
+        height: 870;
+        opacity: 0.2;
+      }
 }
+
+#bg-image-a{
+  width:100vw;
+  height: 190vh;
+  opacity: 0.2;
+}
+
+@media only screen and (min-width:601px) {
+    #bg-image-a2{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+#bg-image-a {
+  display: none;
+}
+
+    #bg-image-a2 {
+      position: absolute;
+      width: 90vw;
+      height: 190vh;
+      opacity: 0.2;
+    }
+  }
+
+
 
 /*div navbar*/
 
