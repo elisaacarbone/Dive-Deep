@@ -213,10 +213,10 @@
   font-family: 'Montserrat';
   font-size: 16px;
   text-align: center;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 
   color: #010228;
-  background-color: #ffd60a;
+  background-color: #D8E5FF;
 
   opacity: 0;
 }
@@ -1026,7 +1026,7 @@
     /*image*/
     position: relative;
     left: 50vw;
-    top:20vh;
+    top:22vh;
     height:50vh;
     width:70vw;
     transform: translate(-50%,0%);
@@ -1074,7 +1074,7 @@
   #ch-button4{
     position: absolute;
     left:35vw;
-    top: 210vh;
+    top: 212vh;
     width:100px;
       height: 50px;
     /* transform: translate(-50%,-50%); */
