@@ -17,6 +17,32 @@
     z-index: -1;
 }
 
+
+#bg-image{
+  width:100vw;
+  height: 390vh;
+  opacity: 0.2;
+}
+
+@media only screen and (min-width:601px) {
+    #bg-image2{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:600px) {
+#bg-image {
+  display: none;
+}
+
+    #bg-image2 {
+      position: absolute;
+      width: 90vw;
+      height: 390vh;
+      opacity: 0.2;
+    }
+  }
+
 /*div topbar*/
 
 #topbar {
